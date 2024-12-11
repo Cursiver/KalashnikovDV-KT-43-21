@@ -10,7 +10,7 @@ namespace KalashnikovDV_KT_43_21.Models
         public string SecondName { get; set; } = string.Empty;
         public string LastName { get; set; } = string.Empty;
 
-        //public int DepartmentID { get; set; }
-        //public Department Department { get; set; }
+        public int FKDisciplineID { get; set; }
+        public Disciplines Disciplines { get; set; } //навигационное свойство
     }
 }

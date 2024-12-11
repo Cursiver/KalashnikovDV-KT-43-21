@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 
 namespace KalashnikovDV_KT_43_21.Database.Configurations
 {
-    public class TeacherConfiguration : IEntityTypeConfiguration<Teachers>
+    public class TeachersConfiguration : IEntityTypeConfiguration<Teachers>
     {
         private const string TableName = "cd_teachers";
 
@@ -39,21 +39,21 @@ namespace KalashnikovDV_KT_43_21.Database.Configurations
                 .HasColumnType(ColumnType.String).HasMaxLength(100)
                 .HasComment("Отчество преподавателя");
 
-            //builder.Property(p => p.DisciplineID)
-            //    .IsRequired()
-            //    .HasColumnName("c_teacher_discipline_id")
-            //    .HasColumnType(ColumnType.Int)
-            //    .HasComment("Идентификатор дисциплины");
+            builder.Property(p => p.FKDisciplineID)
+                .IsRequired()
+                .HasColumnName("c_teacher_discipline_id")
+                .HasColumnType(ColumnType.Int)
+                .HasComment("Идентификатор дисциплины");
 
-            //builder.ToTable(TableName)
-            //    .HasOne(p => p.Discipline)
-            //    .WithMany()
-            //    .HasForeignKey(p => p.DisciplineID)
-            //    .HasConstraintName("fk_f_discipline_id")
-            //    .OnDelete(DeleteBehavior.Cascade);
+            builder.ToTable(TableName)
+                .HasOne(p => p.Disciplines)
+                .WithMany()
+                .HasForeignKey(p => p.FKDisciplineID)
+                .HasConstraintName("fk_f_discipline_id")
+                .OnDelete(DeleteBehavior.Cascade);
 
-            //builder.ToTable(TableName)
-            //    .HasIndex(p => p.DisciplineID, $"idx_{TableName}_fk_f_department_id");
+            builder.ToTable(TableName)
+                .HasIndex(p => p.FKDisciplineID, $"idx_{TableName}_fk_f_discipline_id");
         }
     }
 }

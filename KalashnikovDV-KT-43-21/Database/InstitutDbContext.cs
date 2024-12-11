@@ -8,15 +8,15 @@ namespace KalashnikovDV_KT_43_21.Database
     public class InstitutDbContext : DbContext
     {
         //добавление таблиц
-        DbSet<Department> departments {  get; set; }
-        DbSet<Disciplines> disciplines {  get; set; }
-        DbSet<Teachers> teachers {  get; set; }
+        DbSet<Departments> departments { get; set; }
+        DbSet<Disciplines> disciplines { get; set; }
+        DbSet<Teachers> teachers { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             //Добавляем конфигурации к таблицам
-            modelBuilder.ApplyConfiguration(new DepartmentConfiguration());
-            modelBuilder.ApplyConfiguration(new DisciplinesConfigurations());
-            modelBuilder.ApplyConfiguration(new TeacherConfiguration());
+            modelBuilder.ApplyConfiguration(new DepartmentsConfiguration());
+            modelBuilder.ApplyConfiguration(new DisciplinesConfiguration());
+            modelBuilder.ApplyConfiguration(new TeachersConfiguration());
         }
 
         public InstitutDbContext(DbContextOptions<InstitutDbContext> options) : base(options)

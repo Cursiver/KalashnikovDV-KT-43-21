@@ -7,7 +7,7 @@ namespace KalashnikovDV_KT_43_21.Models
     {
         public int DisciplineId { get; set; }
         public string DisciplineName { get; set; } = string.Empty;
-        public int DepartmentId { get; set; } //Кафедра //дисциплин беск:1 кафедра
-        public Department Department { get; set; } //навигационное свойство
+        public int FKDepartmentId { get; set; } //Кафедра
+        public Departments Departments { get; set; } //навигационное свойство
     }
 }
