@@ -1,0 +1,19 @@
+[
+  {
+    "ContainingType": "KalashnikovDV_KT_43_21.Controllers.TeachersController",
+    "Method": "GetTeachersByDisciplineAsync",
+    "RelativePath": "Teachers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "KalashnikovDV_KT_43_21.Filters.TeacherFilters.TeacherDisciplineFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetTeachersByDiscipline"
+  }
+]

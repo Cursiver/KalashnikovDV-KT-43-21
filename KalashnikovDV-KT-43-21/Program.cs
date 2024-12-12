@@ -1,4 +1,5 @@
 using KalashnikovDV_KT_43_21.Database;
+using KalashnikovDV_KT_43_21.ServiceExtensions;
 using Microsoft.EntityFrameworkCore;
 using NLog;
 using NLog.Web;
@@ -21,6 +22,8 @@ try
 
     builder.Services.AddDbContext<InstitutDbContext>(options =>
         options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+    builder.Services.AddServices();
 
     var app = builder.Build();
 
