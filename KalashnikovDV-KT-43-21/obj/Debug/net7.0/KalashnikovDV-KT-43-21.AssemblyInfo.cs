@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KalashnikovDV-KT-43-21")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2556f9f6b7270f79b277a52d41f85dbf48a9103")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1222694710c41d84a95b27371cd5bcbdff74fd56")]
 [assembly: System.Reflection.AssemblyProductAttribute("KalashnikovDV-KT-43-21")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KalashnikovDV-KT-43-21")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
