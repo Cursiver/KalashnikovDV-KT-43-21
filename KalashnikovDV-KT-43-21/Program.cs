@@ -1,5 +1,6 @@
 using KalashnikovDV_KT_43_21.Database;
 using KalashnikovDV_KT_43_21.ServiceExtensions;
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.EntityFrameworkCore;
 using NLog;
 using NLog.Web;
@@ -33,6 +34,8 @@ try
         app.UseSwagger();
         app.UseSwaggerUI();
     }
+
+    app.UseMiddleware<ExceptionHandlerMiddleware>();
 
     app.UseAuthorization();
 
