@@ -53,20 +53,20 @@ namespace KalashnikovDV_KT_43_21.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("DisciplineId"));
 
+                    b.Property<int>("DepartmentId")
+                        .HasColumnType("int4")
+                        .HasColumnName("c_department_id");
+
                     b.Property<string>("DisciplineName")
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("varchar")
                         .HasColumnName("c_discipline_name");
 
-                    b.Property<int>("FKDepartmentId")
-                        .HasColumnType("int4")
-                        .HasColumnName("c_department_id");
-
                     b.HasKey("DisciplineId")
                         .HasName("pk_cd_disciplines_department_id");
 
-                    b.HasIndex(new[] { "FKDepartmentId" }, "idx_cd_disciplines_fk_f_department_id");
+                    b.HasIndex(new[] { "DepartmentId" }, "idx_cd_disciplines_fk_f_department_id");
 
                     b.ToTable("cd_disciplines", (string)null);
                 });
@@ -81,7 +81,7 @@ namespace KalashnikovDV_KT_43_21.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("TeacherId"));
 
-                    b.Property<int>("FKDisciplineID")
+                    b.Property<int>("DisciplineID")
                         .HasColumnType("int4")
                         .HasColumnName("c_teacher_discipline_id")
                         .HasComment("Идентификатор дисциплины");
@@ -110,7 +110,7 @@ namespace KalashnikovDV_KT_43_21.Migrations
                     b.HasKey("TeacherId")
                         .HasName("pk_cd_teachers_teacher_id");
 
-                    b.HasIndex(new[] { "FKDisciplineID" }, "idx_cd_teachers_fk_f_discipline_id");
+                    b.HasIndex(new[] { "DisciplineID" }, "idx_cd_teachers_fk_f_discipline_id");
 
                     b.ToTable("cd_teachers", (string)null);
                 });
@@ -119,7 +119,7 @@ namespace KalashnikovDV_KT_43_21.Migrations
                 {
                     b.HasOne("KalashnikovDV_KT_43_21.Models.Departments", "Departments")
                         .WithMany()
-                        .HasForeignKey("FKDepartmentId")
+                        .HasForeignKey("DepartmentId")
                         .OnDelete(DeleteBehavior.SetNull)
                         .IsRequired()
                         .HasConstraintName("fk_f_department_id");
@@ -131,7 +131,7 @@ namespace KalashnikovDV_KT_43_21.Migrations
                 {
                     b.HasOne("KalashnikovDV_KT_43_21.Models.Disciplines", "Disciplines")
                         .WithMany()
-                        .HasForeignKey("FKDisciplineID")
+                        .HasForeignKey("DisciplineID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired()
                         .HasConstraintName("fk_f_discipline_id");

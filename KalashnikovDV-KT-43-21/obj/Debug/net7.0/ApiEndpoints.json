@@ -1,8 +1,25 @@
 [
   {
     "ContainingType": "KalashnikovDV_KT_43_21.Controllers.TeachersController",
+    "Method": "GetTeachersByDepartmentsAsync",
+    "RelativePath": "Teachers/department",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "KalashnikovDV_KT_43_21.Filters.TeacherFilters.TeacherDepartmentFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetTeachersByDepartment"
+  },
+  {
+    "ContainingType": "KalashnikovDV_KT_43_21.Controllers.TeachersController",
     "Method": "GetTeachersByDisciplineAsync",
-    "RelativePath": "Teachers",
+    "RelativePath": "Teachers/discipline",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -15,5 +32,22 @@
     ],
     "ReturnTypes": [],
     "EndpointName": "GetTeachersByDiscipline"
+  },
+  {
+    "ContainingType": "KalashnikovDV_KT_43_21.Controllers.TeachersController",
+    "Method": "GetDisciplinesByTeacherAsync",
+    "RelativePath": "Teachers/teacher",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "KalashnikovDV_KT_43_21.Filters.TeacherFilters.DisciplineTeacherFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetDisciplineByTeacherFirstName"
   }
 ]

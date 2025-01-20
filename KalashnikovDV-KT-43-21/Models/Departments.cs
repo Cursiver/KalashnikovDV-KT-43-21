@@ -1,8 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-//using System.Text.Json.Serialization;
-using System.Text.RegularExpressions;
-
-namespace KalashnikovDV_KT_43_21.Models
+﻿namespace KalashnikovDV_KT_43_21.Models
 {
     public class Departments
     {

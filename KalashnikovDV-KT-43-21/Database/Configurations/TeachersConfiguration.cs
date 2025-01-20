@@ -39,7 +39,7 @@ namespace KalashnikovDV_KT_43_21.Database.Configurations
                 .HasColumnType(ColumnType.String).HasMaxLength(100)
                 .HasComment("Отчество преподавателя");
 
-            builder.Property(p => p.FKDisciplineID)
+            builder.Property(p => p.DisciplineID)
                 .IsRequired()
                 .HasColumnName("c_teacher_discipline_id")
                 .HasColumnType(ColumnType.Int)
@@ -48,12 +48,15 @@ namespace KalashnikovDV_KT_43_21.Database.Configurations
             builder.ToTable(TableName)
                 .HasOne(p => p.Disciplines)
                 .WithMany()
-                .HasForeignKey(p => p.FKDisciplineID)
+                .HasForeignKey(p => p.DisciplineID)
                 .HasConstraintName("fk_f_discipline_id")
                 .OnDelete(DeleteBehavior.Cascade);
 
             builder.ToTable(TableName)
-                .HasIndex(p => p.FKDisciplineID, $"idx_{TableName}_fk_f_discipline_id");
+                .HasIndex(p => p.DisciplineID, $"idx_{TableName}_fk_f_discipline_id");
+
+            builder.Navigation(p => p.Disciplines)
+                .AutoInclude();
         }
     }
 }

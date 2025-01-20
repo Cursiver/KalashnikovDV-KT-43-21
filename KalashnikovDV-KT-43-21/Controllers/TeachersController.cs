@@ -18,12 +18,27 @@ namespace KalashnikovDV_KT_43_21.Controllers
             _teacherService = teacherService;
         }
 
-        [HttpPost(Name = "GetTeachersByDiscipline")]
+        [HttpPost("discipline", Name = "GetTeachersByDiscipline")]
         public async Task<IActionResult> GetTeachersByDisciplineAsync(TeacherDisciplineFilter filter, CancellationToken cancellationToken = default)
         {
             var teachers = await _teacherService.GetTeachersByDisciplineAsync(filter, cancellationToken);
 
             return Ok(teachers);
+        }
+
+        [HttpPost("department", Name = "GetTeachersByDepartment")]
+        public async Task<IActionResult> GetTeachersByDepartmentsAsync(TeacherDepartmentFilter filter, CancellationToken cancellationToken = default)
+        {
+            var teachers = await _teacherService.GetTeachersByDepartmentsAsync(filter, cancellationToken);
+
+            return Ok(teachers);
+        }
+        [HttpPost("teacher", Name = "GetDisciplineByTeacherFirstName")]
+        public async Task<IActionResult> GetDisciplinesByTeacherAsync(DisciplineTeacherFilter filter, CancellationToken cancellationToken = default)
+        {
+            var disciplines = await _teacherService.GetDisciplinesByTeacherAsync(filter, cancellationToken);
+
+            return Ok(disciplines);
         }
     }
 }

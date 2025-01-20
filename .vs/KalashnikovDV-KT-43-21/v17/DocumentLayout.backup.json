@@ -3,12 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Dima\\source\\repos\\KalashnikovDV-KT-43-21\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{51BEBAC8-DED1-4D76-A9B4-2AE40FF5C40A}|KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21.csproj|c:\\users\\dima\\source\\repos\\kalashnikovdv-kt-43-21\\kalashnikovdv-kt-43-21\\interfaces\\teacherinterfaces\\iteacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51BEBAC8-DED1-4D76-A9B4-2AE40FF5C40A}|KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21.csproj|solutionrelative:kalashnikovdv-kt-43-21\\interfaces\\teacherinterfaces\\iteacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51BEBAC8-DED1-4D76-A9B4-2AE40FF5C40A}|KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21.csproj|c:\\users\\dima\\source\\repos\\kalashnikovdv-kt-43-21\\kalashnikovdv-kt-43-21\\models\\disciplines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51BEBAC8-DED1-4D76-A9B4-2AE40FF5C40A}|KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21.csproj|solutionrelative:kalashnikovdv-kt-43-21\\models\\disciplines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{51BEBAC8-DED1-4D76-A9B4-2AE40FF5C40A}|KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21.csproj|c:\\users\\dima\\source\\repos\\kalashnikovdv-kt-43-21\\kalashnikovdv-kt-43-21\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51BEBAC8-DED1-4D76-A9B4-2AE40FF5C40A}|KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21.csproj|solutionrelative:kalashnikovdv-kt-43-21\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{51BEBAC8-DED1-4D76-A9B4-2AE40FF5C40A}|KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21.csproj|c:\\users\\dima\\source\\repos\\kalashnikovdv-kt-43-21\\kalashnikovdv-kt-43-21\\models\\teachers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51BEBAC8-DED1-4D76-A9B4-2AE40FF5C40A}|KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21.csproj|solutionrelative:kalashnikovdv-kt-43-21\\models\\teachers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51BEBAC8-DED1-4D76-A9B4-2AE40FF5C40A}|KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21.csproj|c:\\users\\dima\\source\\repos\\kalashnikovdv-kt-43-21\\kalashnikovdv-kt-43-21\\filters\\teacherfilters\\disciplineteacherfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51BEBAC8-DED1-4D76-A9B4-2AE40FF5C40A}|KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21.csproj|solutionrelative:kalashnikovdv-kt-43-21\\filters\\teacherfilters\\disciplineteacherfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51BEBAC8-DED1-4D76-A9B4-2AE40FF5C40A}|KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21.csproj|c:\\users\\dima\\source\\repos\\kalashnikovdv-kt-43-21\\kalashnikovdv-kt-43-21\\filters\\teacherfilters\\teacherdisciplinefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51BEBAC8-DED1-4D76-A9B4-2AE40FF5C40A}|KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21.csproj|solutionrelative:kalashnikovdv-kt-43-21\\filters\\teacherfilters\\teacherdisciplinefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{51BEBAC8-DED1-4D76-A9B4-2AE40FF5C40A}|KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21.csproj|c:\\users\\dima\\source\\repos\\kalashnikovdv-kt-43-21\\kalashnikovdv-kt-43-21\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51BEBAC8-DED1-4D76-A9B4-2AE40FF5C40A}|KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21.csproj|solutionrelative:kalashnikovdv-kt-43-21\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51BEBAC8-DED1-4D76-A9B4-2AE40FF5C40A}|KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21.csproj|c:\\users\\dima\\source\\repos\\kalashnikovdv-kt-43-21\\kalashnikovdv-kt-43-21\\database\\configurations\\disciplinesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51BEBAC8-DED1-4D76-A9B4-2AE40FF5C40A}|KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21.csproj|solutionrelative:kalashnikovdv-kt-43-21\\database\\configurations\\disciplinesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51BEBAC8-DED1-4D76-A9B4-2AE40FF5C40A}|KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21.csproj|c:\\users\\dima\\source\\repos\\kalashnikovdv-kt-43-21\\kalashnikovdv-kt-43-21\\database\\configurations\\teachersconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51BEBAC8-DED1-4D76-A9B4-2AE40FF5C40A}|KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21.csproj|solutionrelative:kalashnikovdv-kt-43-21\\database\\configurations\\teachersconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51BEBAC8-DED1-4D76-A9B4-2AE40FF5C40A}|KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21.csproj|c:\\users\\dima\\source\\repos\\kalashnikovdv-kt-43-21\\kalashnikovdv-kt-43-21\\serviceextensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51BEBAC8-DED1-4D76-A9B4-2AE40FF5C40A}|KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21.csproj|solutionrelative:kalashnikovdv-kt-43-21\\serviceextensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51BEBAC8-DED1-4D76-A9B4-2AE40FF5C40A}|KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21.csproj|c:\\users\\dima\\source\\repos\\kalashnikovdv-kt-43-21\\kalashnikovdv-kt-43-21\\migrations\\20250106164331_createdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51BEBAC8-DED1-4D76-A9B4-2AE40FF5C40A}|KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21.csproj|solutionrelative:kalashnikovdv-kt-43-21\\migrations\\20250106164331_createdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,33 +58,153 @@
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ITeacherService.cs",
+              "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21\\Interfaces\\TeacherInterfaces\\ITeacherService.cs",
+              "RelativeDocumentMoniker": "KalashnikovDV-KT-43-21\\Interfaces\\TeacherInterfaces\\ITeacherService.cs",
+              "ToolTip": "C:\\Users\\Dima\\source\\repos\\KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21\\Interfaces\\TeacherInterfaces\\ITeacherService.cs",
+              "RelativeToolTip": "KalashnikovDV-KT-43-21\\Interfaces\\TeacherInterfaces\\ITeacherService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAswCoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T17:31:02.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TeachersController.cs",
+              "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21\\Controllers\\TeachersController.cs",
+              "RelativeDocumentMoniker": "KalashnikovDV-KT-43-21\\Controllers\\TeachersController.cs",
+              "ToolTip": "C:\\Users\\Dima\\source\\repos\\KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21\\Controllers\\TeachersController.cs",
+              "RelativeToolTip": "KalashnikovDV-KT-43-21\\Controllers\\TeachersController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T00:52:24.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Disciplines.cs",
+              "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21\\Models\\Disciplines.cs",
+              "RelativeDocumentMoniker": "KalashnikovDV-KT-43-21\\Models\\Disciplines.cs",
+              "ToolTip": "C:\\Users\\Dima\\source\\repos\\KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21\\Models\\Disciplines.cs",
+              "RelativeToolTip": "KalashnikovDV-KT-43-21\\Models\\Disciplines.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T21:49:36.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Teachers.cs",
+              "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21\\Models\\Teachers.cs",
+              "RelativeDocumentMoniker": "KalashnikovDV-KT-43-21\\Models\\Teachers.cs",
+              "ToolTip": "C:\\Users\\Dima\\source\\repos\\KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21\\Models\\Teachers.cs",
+              "RelativeToolTip": "KalashnikovDV-KT-43-21\\Models\\Teachers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T18:37:39.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DisciplineTeacherFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21\\Filters\\TeacherFilters\\DisciplineTeacherFilter.cs",
+              "RelativeDocumentMoniker": "KalashnikovDV-KT-43-21\\Filters\\TeacherFilters\\DisciplineTeacherFilter.cs",
+              "ToolTip": "C:\\Users\\Dima\\source\\repos\\KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21\\Filters\\TeacherFilters\\DisciplineTeacherFilter.cs",
+              "RelativeToolTip": "KalashnikovDV-KT-43-21\\Filters\\TeacherFilters\\DisciplineTeacherFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T01:18:17.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TeacherDisciplineFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21\\Filters\\TeacherFilters\\TeacherDisciplineFilter.cs",
+              "RelativeDocumentMoniker": "KalashnikovDV-KT-43-21\\Filters\\TeacherFilters\\TeacherDisciplineFilter.cs",
+              "ToolTip": "C:\\Users\\Dima\\source\\repos\\KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21\\Filters\\TeacherFilters\\TeacherDisciplineFilter.cs",
+              "RelativeToolTip": "KalashnikovDV-KT-43-21\\Filters\\TeacherFilters\\TeacherDisciplineFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T19:41:17.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21\\Program.cs",
               "RelativeDocumentMoniker": "KalashnikovDV-KT-43-21\\Program.cs",
               "ToolTip": "C:\\Users\\Dima\\source\\repos\\KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21\\Program.cs",
               "RelativeToolTip": "KalashnikovDV-KT-43-21\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACUAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T23:09:33.79Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TeachersController.cs",
-              "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21\\Controllers\\TeachersController.cs",
-              "RelativeDocumentMoniker": "KalashnikovDV-KT-43-21\\Controllers\\TeachersController.cs",
-              "ToolTip": "C:\\Users\\Dima\\source\\repos\\KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21\\Controllers\\TeachersController.cs",
-              "RelativeToolTip": "KalashnikovDV-KT-43-21\\Controllers\\TeachersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "DisciplinesConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21\\Database\\Configurations\\DisciplinesConfiguration.cs",
+              "RelativeDocumentMoniker": "KalashnikovDV-KT-43-21\\Database\\Configurations\\DisciplinesConfiguration.cs",
+              "ToolTip": "C:\\Users\\Dima\\source\\repos\\KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21\\Database\\Configurations\\DisciplinesConfiguration.cs",
+              "RelativeToolTip": "KalashnikovDV-KT-43-21\\Database\\Configurations\\DisciplinesConfiguration.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAnwCwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T23:08:44.2Z",
+              "WhenOpened": "2025-01-06T16:41:45.495Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TeachersConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21\\Database\\Configurations\\TeachersConfiguration.cs",
+              "RelativeDocumentMoniker": "KalashnikovDV-KT-43-21\\Database\\Configurations\\TeachersConfiguration.cs",
+              "ToolTip": "C:\\Users\\Dima\\source\\repos\\KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21\\Database\\Configurations\\TeachersConfiguration.cs",
+              "RelativeToolTip": "KalashnikovDV-KT-43-21\\Database\\Configurations\\TeachersConfiguration.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T16:40:37.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21\\ServiceExtensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "KalashnikovDV-KT-43-21\\ServiceExtensions\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\Dima\\source\\repos\\KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21\\ServiceExtensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "KalashnikovDV-KT-43-21\\ServiceExtensions\\ServiceExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T16:42:24.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250106164331_CreateDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21\\Migrations\\20250106164331_CreateDatabase.cs",
+              "RelativeDocumentMoniker": "KalashnikovDV-KT-43-21\\Migrations\\20250106164331_CreateDatabase.cs",
+              "ToolTip": "C:\\Users\\Dima\\source\\repos\\KalashnikovDV-KT-43-21\\KalashnikovDV-KT-43-21\\Migrations\\20250106164331_CreateDatabase.cs",
+              "RelativeToolTip": "KalashnikovDV-KT-43-21\\Migrations\\20250106164331_CreateDatabase.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T16:43:31.477Z"
             }
           ]
         }

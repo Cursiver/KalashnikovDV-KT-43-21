@@ -1,5 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System.Text.RegularExpressions;
+﻿using System.Text.Json.Serialization;
 
 namespace KalashnikovDV_KT_43_21.Models
 {
@@ -10,7 +9,8 @@ namespace KalashnikovDV_KT_43_21.Models
         public string SecondName { get; set; } = string.Empty;
         public string LastName { get; set; } = string.Empty;
 
-        public int FKDisciplineID { get; set; }
+        public int DisciplineID { get; set; }
+        //[JsonIgnore]  //отключено в рамках теста
         public Disciplines Disciplines { get; set; } //навигационное свойство
     }
 }
